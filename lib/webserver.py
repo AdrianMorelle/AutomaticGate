@@ -48,11 +48,11 @@ def web_page():
     <form action="/action">
         <p>
             <label for="addBT">Add</label>
-            <input type="text" id="addBT" name="addBT">
+            <input type="text" id="addBT" name="addBT" maxlength = "16"><br><br>
         </p>
         <p>
             <label for="delBT">Remove</label>
-            <input type="text" id="deleteBT" name="delBT">
+            <input type="text" id="deleteBT" name="delBT" maxlength = "16"><br><br> 
         </p>
         <input type="submit" value="Submit">
 
@@ -60,6 +60,7 @@ def web_page():
 </body>
 
 </html>"""
+    
     return html
 
 def webserverstart():
